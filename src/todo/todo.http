@@ -4,3 +4,12 @@ GET {{todo_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST https://localhost:7234/api/todoitems
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Dream",
+    "isComplete": false
+}

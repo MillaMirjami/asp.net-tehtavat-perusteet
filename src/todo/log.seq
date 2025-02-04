@@ -1,0 +1,13 @@
+2025-02-04 14:42:01.248 +02:00 [INF] Logger creation successful
+2025-02-04 14:42:08.440 +02:00 [INF] Request Method: GET | Request Path: /
+2025-02-04 14:42:08.446 +02:00 [ERR] Response Status Code: 404
+2025-02-04 14:42:11.737 +02:00 [INF] Request Method: GET | Request Path: /swagger/index.html
+2025-02-04 14:42:11.771 +02:00 [INF] Response Status Code: 200
+2025-02-04 14:42:11.830 +02:00 [INF] Request Method: GET | Request Path: /swagger/v1/swagger.json
+2025-02-04 14:42:11.879 +02:00 [INF] Response Status Code: 200
+2025-02-04 14:42:14.834 +02:00 [INF] Request Method: GET | Request Path: /api/TodoItems
+2025-02-04 14:42:15.062 +02:00 [INF] Response Status Code: 200
+2025-02-04 14:42:26.934 +02:00 [INF] Request Method: POST | Request Path: /api/TodoItems
+2025-02-04 14:42:26.970 +02:00 [ERR] Response Status Code: 400
+2025-02-04 14:42:32.482 +02:00 [INF] Request Method: POST | Request Path: /api/TodoItems
+2025-02-04 14:42:32.512 +02:00 [INF] Response Status Code: 201

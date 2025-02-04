@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Todo.Models;
+using Todo.Data;
 
 namespace todo.Controllers
 {
@@ -24,7 +25,17 @@ namespace todo.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
-            return await _context.TodoItems.ToListAsync();
+            // To check if there's data in the db
+            var todoItems = await _context.TodoItems.ToListAsync();
+
+            // If db is empty, return basedata
+            if(todoItems.Count == 0)
+            {
+                todoItems = TodoData.GetInitialTodoItems();
+                _context.TodoItems.AddRange(todoItems);
+                await _context.SaveChangesAsync();
+            }
+            return Ok(todoItems);
         }
 
         // GET: api/TodoItems/5
