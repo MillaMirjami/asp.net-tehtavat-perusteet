@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Authorisation.Models;
+using Authorisation.Data;
 
 var builder = WebApplication.CreateBuilder(args); 
 // Creates webApplicationBuilder object, easy way to define and 
@@ -39,7 +39,6 @@ if (app.Environment.IsDevelopment()) // Configure the HTTP request pipeline. (Co
 {
     app.UseSwagger(); // Creates Swagger to the documentation
     app.UseSwaggerUI(); // Creates UI for the Swagger documentation
-    app.UseDeveloperExeptionPage(); // Displays error messages & stack race info in development
 }
 
 app.UseHttpsRedirection(); // Middleware, helps redirect if 

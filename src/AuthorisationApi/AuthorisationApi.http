@@ -1,4 +1,4 @@
-@AuthorisationApi_HostAddress = http://localhost:7092
+@AuthorisationApi_HostAddress = http://localhost:5052
 
 GET {{AuthorisationApi_HostAddress}}/Users/
 Accept: application/json
@@ -6,7 +6,7 @@ Accept: application/json
 ###
 
 // Käyttäjän luominen
-POST http://localhost:7092/Users
+POST {{AuthorisationApi_HostAddress}}/Users
 Content-Type: application/json
 
 {
@@ -14,8 +14,10 @@ Content-Type: application/json
     "password": "newpassword"
 }
 
+
+###
 // Kirjautuminen
-POST http://localhost:7092/Users/Login
+POST http://localhost:5052/Users/Login
 Content-Type: application/json
 
 {
