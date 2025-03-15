@@ -80,7 +80,7 @@ namespace todo.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(todoItem);
         }
 
         // POST: api/TodoItems

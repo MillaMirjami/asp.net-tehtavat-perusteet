@@ -11,3 +11,97 @@
 2025-02-04 14:42:26.970 +02:00 [ERR] Response Status Code: 400
 2025-02-04 14:42:32.482 +02:00 [INF] Request Method: POST | Request Path: /api/TodoItems
 2025-02-04 14:42:32.512 +02:00 [INF] Response Status Code: 201
+2025-03-15 14:35:33.220 +02:00 [INF] Logger creation successful
+2025-03-15 14:35:37.361 +02:00 [INF] Request Method: GET | Request Path: /
+2025-03-15 14:35:37.373 +02:00 [ERR] Response Status Code: 404
+2025-03-15 14:35:41.700 +02:00 [INF] Request Method: GET | Request Path: /swagger
+2025-03-15 14:35:41.702 +02:00 [INF] Response Status Code: 301
+2025-03-15 14:35:41.709 +02:00 [INF] Request Method: GET | Request Path: /swagger/index.html
+2025-03-15 14:35:41.742 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:35:41.753 +02:00 [INF] Request Method: GET | Request Path: /swagger/swagger-ui.css
+2025-03-15 14:35:41.753 +02:00 [INF] Request Method: GET | Request Path: /swagger/swagger-ui-bundle.js
+2025-03-15 14:35:41.754 +02:00 [INF] Request Method: GET | Request Path: /swagger/swagger-ui-standalone-preset.js
+2025-03-15 14:35:41.758 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:35:41.758 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:35:41.762 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:35:41.841 +02:00 [INF] Request Method: GET | Request Path: /swagger/v1/swagger.json
+2025-03-15 14:35:41.843 +02:00 [INF] Request Method: GET | Request Path: /swagger/favicon-32x32.png
+2025-03-15 14:35:41.844 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:35:41.882 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:36:45.669 +02:00 [INF] Request Method: GET | Request Path: /api/TodoItems
+2025-03-15 14:36:45.991 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:37:09.121 +02:00 [INF] Request Method: GET | Request Path: /weatherforecast/
+2025-03-15 14:37:09.122 +02:00 [ERR] Response Status Code: 404
+2025-03-15 14:38:21.019 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:38:21.038 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:38:21.079 +02:00 [INF] Request Method: GET | Request Path: /favicon.ico
+2025-03-15 14:38:21.079 +02:00 [ERR] Response Status Code: 404
+2025-03-15 14:38:29.517 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:38:29.544 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:38:53.184 +02:00 [INF] Request Method: POST | Request Path: /api/todoitems
+2025-03-15 14:38:53.215 +02:00 [INF] Response Status Code: 201
+2025-03-15 14:38:56.533 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:38:56.534 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:39:07.687 +02:00 [INF] Request Method: POST | Request Path: /api/todoitems
+2025-03-15 14:39:07.697 +02:00 [INF] Response Status Code: 201
+2025-03-15 14:39:10.967 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:39:10.968 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:48:22.329 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems/:id
+2025-03-15 14:48:22.348 +02:00 [ERR] Response Status Code: 400
+2025-03-15 14:48:34.730 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems/:id
+2025-03-15 14:48:34.733 +02:00 [ERR] Response Status Code: 400
+2025-03-15 14:48:39.956 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems/:id
+2025-03-15 14:48:39.957 +02:00 [ERR] Response Status Code: 400
+2025-03-15 14:48:52.763 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems/1
+2025-03-15 14:48:52.818 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:51:03.045 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:51:03.058 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:51:14.796 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:51:14.800 +02:00 [ERR] Response Status Code: 400
+2025-03-15 14:51:57.474 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:51:57.476 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:52:17.509 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:52:17.511 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:55:09.345 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:55:09.347 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:55:11.761 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:55:11.762 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:55:16.513 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:55:16.514 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:57:17.608 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:57:17.611 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:57:24.120 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:57:24.122 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:57:32.988 +02:00 [INF] Logger creation successful
+2025-03-15 14:57:35.489 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:57:35.705 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:57:40.091 +02:00 [INF] Request Method: PUT | Request Path: /api/todoitems/1
+2025-03-15 14:57:40.121 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:57:49.649 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:57:49.693 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:58:31.407 +02:00 [INF] Request Method: POST | Request Path: /api/todoitems
+2025-03-15 14:58:31.450 +02:00 [INF] Response Status Code: 201
+2025-03-15 14:59:12.973 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:59:12.975 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:59:34.802 +02:00 [INF] Request Method: DELETE | Request Path: /api/todoitems/4
+2025-03-15 14:59:34.852 +02:00 [INF] Response Status Code: 204
+2025-03-15 14:59:41.090 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:59:41.091 +02:00 [INF] Response Status Code: 200
+2025-03-15 14:59:48.457 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 14:59:48.458 +02:00 [INF] Response Status Code: 200
+2025-03-15 15:00:51.025 +02:00 [INF] Request Method: POST | Request Path: /api/todoitems
+2025-03-15 15:00:51.027 +02:00 [INF] Response Status Code: 201
+2025-03-15 15:01:37.022 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems/24584
+2025-03-15 15:01:37.068 +02:00 [ERR] Response Status Code: 404
+2025-03-15 15:02:29.156 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 15:02:29.158 +02:00 [INF] Response Status Code: 200
+2025-03-15 15:03:47.337 +02:00 [INF] Request Method: POST | Request Path: /api/todoitems
+2025-03-15 15:03:47.340 +02:00 [INF] Response Status Code: 201
+2025-03-15 15:05:49.101 +02:00 [INF] Request Method: PUT | Request Path: /api/TodoItems/1
+2025-03-15 15:05:49.103 +02:00 [ERR] Response Status Code: 400
+2025-03-15 15:06:00.975 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 15:06:00.978 +02:00 [INF] Response Status Code: 200
+2025-03-15 15:06:11.285 +02:00 [INF] Request Method: PUT | Request Path: /api/TodoItems/1
+2025-03-15 15:06:11.287 +02:00 [INF] Response Status Code: 200
+2025-03-15 15:06:20.077 +02:00 [INF] Request Method: GET | Request Path: /api/todoitems
+2025-03-15 15:06:20.079 +02:00 [INF] Response Status Code: 200
