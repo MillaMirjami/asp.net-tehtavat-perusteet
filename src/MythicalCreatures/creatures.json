@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "",
+    "Type": "",
+    "Strength": 0,
+    "Agility": 1,
+    "Intelligence": 0
+  },
+  {
+    "Id": 3,
+    "Name": "Zephyrus",
+    "Type": "Wind Spirit",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 4,
+    "Name": "Kraken",
+    "Type": "Sea Monster",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 5,
+    "Name": "Gorgon",
+    "Type": "Serpent Hybrid",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 6,
+    "Name": "Phoenix",
+    "Type": "Firebird",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 7,
+    "Name": "Minotaur",
+    "Type": "Beastman",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 8,
+    "Name": "Basilisk",
+    "Type": "Reptilian Horror",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 9,
+    "Name": "Griffin",
+    "Type": "Majestic Beast",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 10,
+    "Name": "Chimera",
+    "Type": "Hybrid Beast",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  },
+  {
+    "Id": 11,
+    "Name": "Jussi",
+    "Type": "Lil egg",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0
+  }
+]

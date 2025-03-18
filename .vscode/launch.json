@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
     {
+        "name": "Launch API",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/src/MythicalCreatures/bin/Debug/net9.0/MythicalCreatures.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/src/MythicalCreatures/",
+        "stopAtEntry": false,
+        "serverReadyAction": {
+            "action": "openExternally",
+            "pattern": "\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "sourceFileMap": {
+            "/Users/your-user-name": "${workspaceFolder}"
+        }
+    },
+    {
         "name": "Kertaus1",
         "type": "coreclr",
         "request": "launch",

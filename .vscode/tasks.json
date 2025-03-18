@@ -4,7 +4,12 @@
         {
             "label": "build",
             "command": "dotnet",
-            "type": "process",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
             "args": [
                 "build",
                 "${workspaceFolder}/src/"
