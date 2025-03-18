@@ -1,0 +1,16 @@
+// tämä vaatii RestClient extensionin
+// ### jokaisen pyynnön väliin
+@baseURL = https://localhost:5001
+@price = 10
+
+GET localhost:5001
+###
+GET {{baseURL}}
+###
+GET {{baseURL}}/milla
+###
+// requires [FromQuery]
+GET {{baseURL}}/another/?price={{price}}
+###
+// requires  [HttpGet("{price}")]
+GET {{baseURL}}/another/21
